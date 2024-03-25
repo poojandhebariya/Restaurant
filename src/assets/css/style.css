@@ -306,7 +306,7 @@ section {
   border: 0.2rem solid #07ff39;
   flex: 1 0 250px;
   box-shadow: 0 1px 1rem -4px #000;
-  background: rgb(199, 199, 199);
+  background: rgb(255, 255, 255);
   margin: 1rem;
   overflow: hidden;
   border-radius: 6px;
@@ -346,7 +346,14 @@ section {
   transition: 0.5s;
 }
 
+.products{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .products .box-container .box {
+  width: 30rem;
   text-align: center;
   border: 0.2rem solid #07ff45;
   padding-bottom: 2rem;

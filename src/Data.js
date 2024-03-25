@@ -84,9 +84,7 @@ const product = [
   {
     img: productImage1,
   },
-  {
-    img: productImage2,
-  },
+
 ];
 const review = [
   {
