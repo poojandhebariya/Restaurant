@@ -46,7 +46,7 @@ section {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   padding-bottom: 3.5rem;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 .heading span {
@@ -90,7 +90,7 @@ section {
 
 .header .navbar a {
   margin: 0 1rem;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #fff;
 }
 
@@ -243,14 +243,15 @@ section {
 .about .row {
   display: flex;
   align-items: center;
-  background: #cafadc;
+  gap: 5rem;
+  background: #ffffff;
   flex-wrap: wrap;
-  border: 2px solid black;
 }
 
 .about .row .image {
   flex: 1 1 45rem;
   height: 43.5rem;
+  border: 2px solid black;
   
 }
 
@@ -260,8 +261,18 @@ section {
 }
 
 .about .row .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  gap: 2rem;
+  height: 43.5rem;
+  background: #d0fae2;
+  box-shadow: 5 1 1 black inset;
   flex: 1 1 45rem;
   padding: 2rem;
+  border: 2px solid black;
 }
 
 .about .row .content h3 {
@@ -442,16 +453,17 @@ section {
 
 .contact .row {
   display: flex;
-  background: #d6f8db;
+  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
-  border: 2px solid black;
+  gap: 5rem;
 }
 
 .contact .row .map {
   flex: 1 1 45rem;
   width: 100%;
   object-fit: cover;
+  border: 2px solid black;
 }
 
 .contact .row form {
