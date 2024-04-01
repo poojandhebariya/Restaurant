@@ -16,7 +16,7 @@ const Products = () => {
                 <img src={item.img} alt="" />
               </div>
               <div className="content">
-                <h3>fresh coffee</h3>
+                <h3>fresh food</h3>
                 <div className="stars">
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
